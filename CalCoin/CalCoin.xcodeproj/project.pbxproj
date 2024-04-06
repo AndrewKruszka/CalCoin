@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DBC6E32BC1A29D00C08DC5 /* CalCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC6E22BC1A29D00C08DC5 /* CalCoinApp.swift */; };
+		74DBC6E52BC1A29D00C08DC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC6E42BC1A29D00C08DC5 /* ContentView.swift */; };
+		74DBC6E72BC1A29F00C08DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DBC6E62BC1A29F00C08DC5 /* Assets.xcassets */; };
+		74DBC6EA2BC1A29F00C08DC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DBC6E92BC1A29F00C08DC5 /* Preview Assets.xcassets */; };
+		74DBC6F42BC1A29F00C08DC5 /* CalCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC6F32BC1A29F00C08DC5 /* CalCoinTests.swift */; };
+		74DBC6FE2BC1A29F00C08DC5 /* CalCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC6FD2BC1A29F00C08DC5 /* CalCoinUITests.swift */; };
+		74DBC7002BC1A29F00C08DC5 /* CalCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC6FF2BC1A29F00C08DC5 /* CalCoinUITestsLaunchTests.swift */; };
+		74DBC7122BC1A96300C08DC5 /* GraphQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC7112BC1A96300C08DC5 /* GraphQL.swift */; };
+		74DBC7162BC1AECA00C08DC5 /* POSTfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC7152BC1AECA00C08DC5 /* POSTfile.swift */; };
+		74DBC71E2BC1D34000C08DC5 /* CalCoinWatchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC71D2BC1D34000C08DC5 /* CalCoinWatchExtension.swift */; };
+		74DBC72C2BC1F2A900C08DC5 /* HealthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */; };
+		74DBC72E2BC1F31700C08DC5 /* requestPermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */; };
+		74DBC7302BC1F3D200C08DC5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DBC6F02BC1A29F00C08DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DBC6D72BC1A29D00C08DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DBC6DE2BC1A29D00C08DC5;
+			remoteInfo = CalCoin;
+		};
+		74DBC6FA2BC1A29F00C08DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DBC6D72BC1A29D00C08DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DBC6DE2BC1A29D00C08DC5;
+			remoteInfo = CalCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74DBC6DF2BC1A29D00C08DC5 /* CalCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBC6E22BC1A29D00C08DC5 /* CalCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCoinApp.swift; sourceTree = "<group>"; };
+		74DBC6E42BC1A29D00C08DC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74DBC6E62BC1A29F00C08DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74DBC6E92BC1A29F00C08DC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74DBC6EF2BC1A29F00C08DC5 /* CalCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBC6F32BC1A29F00C08DC5 /* CalCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCoinTests.swift; sourceTree = "<group>"; };
+		74DBC6F92BC1A29F00C08DC5 /* CalCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBC6FD2BC1A29F00C08DC5 /* CalCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCoinUITests.swift; sourceTree = "<group>"; };
+		74DBC6FF2BC1A29F00C08DC5 /* CalCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74DBC7112BC1A96300C08DC5 /* GraphQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQL.swift; sourceTree = "<group>"; };
+		74DBC7152BC1AECA00C08DC5 /* POSTfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSTfile.swift; sourceTree = "<group>"; };
+		74DBC71B2BC1D34000C08DC5 /* CalCoinWatch.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = CalCoinWatch.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBC71D2BC1D34000C08DC5 /* CalCoinWatchExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCoinWatchExtension.swift; sourceTree = "<group>"; };
+		74DBC7252BC1D73900C08DC5 /* CalCoin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalCoin.entitlements; sourceTree = "<group>"; };
+		74DBC7262BC1D74400C08DC5 /* CalCoinWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalCoinWatch.entitlements; sourceTree = "<group>"; };
+		74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreManager.swift; sourceTree = "<group>"; };
+		74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestPermissionsView.swift; sourceTree = "<group>"; };
+		74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DBC6DC2BC1A29D00C08DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC6EC2BC1A29F00C08DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC6F62BC1A29F00C08DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC7182BC1D34000C08DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DBC6D62BC1A29D00C08DC5 = {
+			isa = PBXGroup;
+			children = (
+				74DBC71C2BC1D34000C08DC5 /* CalCoinWatch */,
+				74DBC6E12BC1A29D00C08DC5 /* CalCoin */,
+				74DBC6F22BC1A29F00C08DC5 /* CalCoinTests */,
+				74DBC6FC2BC1A29F00C08DC5 /* CalCoinUITests */,
+				74DBC6E02BC1A29D00C08DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74DBC6E02BC1A29D00C08DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DBC6DF2BC1A29D00C08DC5 /* CalCoin.app */,
+				74DBC6EF2BC1A29F00C08DC5 /* CalCoinTests.xctest */,
+				74DBC6F92BC1A29F00C08DC5 /* CalCoinUITests.xctest */,
+				74DBC71B2BC1D34000C08DC5 /* CalCoinWatch.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DBC6E12BC1A29D00C08DC5 /* CalCoin */ = {
+			isa = PBXGroup;
+			children = (
+				74DBC7252BC1D73900C08DC5 /* CalCoin.entitlements */,
+				74DBC7112BC1A96300C08DC5 /* GraphQL.swift */,
+				74DBC6E22BC1A29D00C08DC5 /* CalCoinApp.swift */,
+				74DBC6E42BC1A29D00C08DC5 /* ContentView.swift */,
+				74DBC6E62BC1A29F00C08DC5 /* Assets.xcassets */,
+				74DBC6E82BC1A29F00C08DC5 /* Preview Content */,
+				74DBC7152BC1AECA00C08DC5 /* POSTfile.swift */,
+				74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */,
+				74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */,
+				74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */,
+			);
+			path = CalCoin;
+			sourceTree = "<group>";
+		};
+		74DBC6E82BC1A29F00C08DC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74DBC6E92BC1A29F00C08DC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74DBC6F22BC1A29F00C08DC5 /* CalCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				74DBC6F32BC1A29F00C08DC5 /* CalCoinTests.swift */,
+			);
+			path = CalCoinTests;
+			sourceTree = "<group>";
+		};
+		74DBC6FC2BC1A29F00C08DC5 /* CalCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74DBC6FD2BC1A29F00C08DC5 /* CalCoinUITests.swift */,
+				74DBC6FF2BC1A29F00C08DC5 /* CalCoinUITestsLaunchTests.swift */,
+			);
+			path = CalCoinUITests;
+			sourceTree = "<group>";
+		};
+		74DBC71C2BC1D34000C08DC5 /* CalCoinWatch */ = {
+			isa = PBXGroup;
+			children = (
+				74DBC7262BC1D74400C08DC5 /* CalCoinWatch.entitlements */,
+				74DBC71D2BC1D34000C08DC5 /* CalCoinWatchExtension.swift */,
+			);
+			path = CalCoinWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DBC6DE2BC1A29D00C08DC5 /* CalCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBC7032BC1A29F00C08DC5 /* Build configuration list for PBXNativeTarget "CalCoin" */;
+			buildPhases = (
+				74DBC6DB2BC1A29D00C08DC5 /* Sources */,
+				74DBC6DC2BC1A29D00C08DC5 /* Frameworks */,
+				74DBC6DD2BC1A29D00C08DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalCoin;
+			productName = CalCoin;
+			productReference = 74DBC6DF2BC1A29D00C08DC5 /* CalCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74DBC6EE2BC1A29F00C08DC5 /* CalCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBC7062BC1A29F00C08DC5 /* Build configuration list for PBXNativeTarget "CalCoinTests" */;
+			buildPhases = (
+				74DBC6EB2BC1A29F00C08DC5 /* Sources */,
+				74DBC6EC2BC1A29F00C08DC5 /* Frameworks */,
+				74DBC6ED2BC1A29F00C08DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DBC6F12BC1A29F00C08DC5 /* PBXTargetDependency */,
+			);
+			name = CalCoinTests;
+			productName = CalCoinTests;
+			productReference = 74DBC6EF2BC1A29F00C08DC5 /* CalCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74DBC6F82BC1A29F00C08DC5 /* CalCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBC7092BC1A29F00C08DC5 /* Build configuration list for PBXNativeTarget "CalCoinUITests" */;
+			buildPhases = (
+				74DBC6F52BC1A29F00C08DC5 /* Sources */,
+				74DBC6F62BC1A29F00C08DC5 /* Frameworks */,
+				74DBC6F72BC1A29F00C08DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DBC6FB2BC1A29F00C08DC5 /* PBXTargetDependency */,
+			);
+			name = CalCoinUITests;
+			productName = CalCoinUITests;
+			productReference = 74DBC6F92BC1A29F00C08DC5 /* CalCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		74DBC71A2BC1D34000C08DC5 /* CalCoinWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBC7222BC1D34000C08DC5 /* Build configuration list for PBXNativeTarget "CalCoinWatch" */;
+			buildPhases = (
+				74DBC7172BC1D34000C08DC5 /* Sources */,
+				74DBC7182BC1D34000C08DC5 /* Frameworks */,
+				74DBC7192BC1D34000C08DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalCoinWatch;
+			productName = CalCoinWatch;
+			productReference = 74DBC71B2BC1D34000C08DC5 /* CalCoinWatch.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DBC6D72BC1A29D00C08DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					74DBC6DE2BC1A29D00C08DC5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					74DBC6EE2BC1A29F00C08DC5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 74DBC6DE2BC1A29D00C08DC5;
+					};
+					74DBC6F82BC1A29F00C08DC5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 74DBC6DE2BC1A29D00C08DC5;
+					};
+					74DBC71A2BC1D34000C08DC5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 74DBC6DA2BC1A29D00C08DC5 /* Build configuration list for PBXProject "CalCoin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74DBC6D62BC1A29D00C08DC5;
+			packageReferences = (
+			);
+			productRefGroup = 74DBC6E02BC1A29D00C08DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DBC6DE2BC1A29D00C08DC5 /* CalCoin */,
+				74DBC6EE2BC1A29F00C08DC5 /* CalCoinTests */,
+				74DBC6F82BC1A29F00C08DC5 /* CalCoinUITests */,
+				74DBC71A2BC1D34000C08DC5 /* CalCoinWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DBC6DD2BC1A29D00C08DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBC6EA2BC1A29F00C08DC5 /* Preview Assets.xcassets in Resources */,
+				74DBC6E72BC1A29F00C08DC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC6ED2BC1A29F00C08DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC6F72BC1A29F00C08DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC7192BC1D34000C08DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DBC6DB2BC1A29D00C08DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBC72C2BC1F2A900C08DC5 /* HealthStoreManager.swift in Sources */,
+				74DBC72E2BC1F31700C08DC5 /* requestPermissionsView.swift in Sources */,
+				74DBC6E52BC1A29D00C08DC5 /* ContentView.swift in Sources */,
+				74DBC7302BC1F3D200C08DC5 /* DashboardView.swift in Sources */,
+				74DBC7162BC1AECA00C08DC5 /* POSTfile.swift in Sources */,
+				74DBC6E32BC1A29D00C08DC5 /* CalCoinApp.swift in Sources */,
+				74DBC7122BC1A96300C08DC5 /* GraphQL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC6EB2BC1A29F00C08DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBC6F42BC1A29F00C08DC5 /* CalCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC6F52BC1A29F00C08DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBC7002BC1A29F00C08DC5 /* CalCoinUITestsLaunchTests.swift in Sources */,
+				74DBC6FE2BC1A29F00C08DC5 /* CalCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBC7172BC1D34000C08DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBC71E2BC1D34000C08DC5 /* CalCoinWatchExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DBC6F12BC1A29F00C08DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DBC6DE2BC1A29D00C08DC5 /* CalCoin */;
+			targetProxy = 74DBC6F02BC1A29F00C08DC5 /* PBXContainerItemProxy */;
+		};
+		74DBC6FB2BC1A29F00C08DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DBC6DE2BC1A29D00C08DC5 /* CalCoin */;
+			targetProxy = 74DBC6FA2BC1A29F00C08DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		74DBC7012BC1A29F00C08DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74DBC7022BC1A29F00C08DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DBC7042BC1A29F00C08DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CalCoin/CalCoin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalCoin/Preview Content\"";
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Your caloric burn data is used to earn CalCoins";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your caloric burn data is used to earn CalCoins";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Your caloric burn data is used to earn CalCoins";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalCoin.CalCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74DBC7052BC1A29F00C08DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CalCoin/CalCoin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalCoin/Preview Content\"";
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Your caloric burn data is used to earn CalCoins";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your caloric burn data is used to earn CalCoins";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Your caloric burn data is used to earn CalCoins";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalCoin.CalCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74DBC7072BC1A29F00C08DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalCoin.CalCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalCoin";
+			};
+			name = Debug;
+		};
+		74DBC7082BC1A29F00C08DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalCoin.CalCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalCoin";
+			};
+			name = Release;
+		};
+		74DBC70A2BC1A29F00C08DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalCoin.CalCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalCoin;
+			};
+			name = Debug;
+		};
+		74DBC70B2BC1A29F00C08DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalCoin.CalCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalCoin;
+			};
+			name = Release;
+		};
+		74DBC7232BC1D34000C08DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CalCoinWatch/CalCoinWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalCoinWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalCoinWatch;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalCoin.CalCoinWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		74DBC7242BC1D34000C08DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CalCoinWatch/CalCoinWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalCoinWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalCoinWatch;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CalCoin.CalCoinWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DBC6DA2BC1A29D00C08DC5 /* Build configuration list for PBXProject "CalCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBC7012BC1A29F00C08DC5 /* Debug */,
+				74DBC7022BC1A29F00C08DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DBC7032BC1A29F00C08DC5 /* Build configuration list for PBXNativeTarget "CalCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBC7042BC1A29F00C08DC5 /* Debug */,
+				74DBC7052BC1A29F00C08DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DBC7062BC1A29F00C08DC5 /* Build configuration list for PBXNativeTarget "CalCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBC7072BC1A29F00C08DC5 /* Debug */,
+				74DBC7082BC1A29F00C08DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DBC7092BC1A29F00C08DC5 /* Build configuration list for PBXNativeTarget "CalCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBC70A2BC1A29F00C08DC5 /* Debug */,
+				74DBC70B2BC1A29F00C08DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DBC7222BC1D34000C08DC5 /* Build configuration list for PBXNativeTarget "CalCoinWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBC7232BC1D34000C08DC5 /* Debug */,
+				74DBC7242BC1D34000C08DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DBC6D72BC1A29D00C08DC5 /* Project object */;
+}
