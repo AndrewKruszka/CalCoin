@@ -21,9 +21,11 @@ struct CoinsResponse: Decodable {
 
 @main
 struct CalCoinApp: App {
+    @ObservedObject var healthStoreManager = HealthStoreManager()
+
     var body: some Scene {
         WindowGroup {
-            requestPermissionsView()
+            requestPermissionsView(healthStoreManager: healthStoreManager)
         }
     }
 }

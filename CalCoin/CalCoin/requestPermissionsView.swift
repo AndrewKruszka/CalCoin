@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct requestPermissionsView: View {
-    @ObservedObject var healthStoreManager: HealthStoreManage
+    @ObservedObject var healthStoreManager: HealthStoreManager
     @State private var showCalorieView = false
 
     var body: some View {

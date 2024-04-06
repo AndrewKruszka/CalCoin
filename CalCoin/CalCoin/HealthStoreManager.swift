@@ -9,7 +9,7 @@ import Foundation
 import HealthKit
 import SwiftUI
 
-class HealthStoreManage: ObservableObject {
+class HealthStoreManager: ObservableObject {
     @Published var calorieData: Int = 0
     private var healthStore: HKHealthStore?
 

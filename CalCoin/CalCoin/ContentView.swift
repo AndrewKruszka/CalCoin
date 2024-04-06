@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var healthStoreManager = HealthStoreManage()
+    @ObservedObject var healthStoreManager = HealthStoreManager()
     @State private var coins: [Coin] = []
 
     var body: some View {

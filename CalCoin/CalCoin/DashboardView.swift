@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct DashboardView: View {
-    @ObservedObject var healthStoreManager: HealthStoreManage
+    @ObservedObject var healthStoreManager: HealthStoreManager
 
     var body: some View {
         VStack {
