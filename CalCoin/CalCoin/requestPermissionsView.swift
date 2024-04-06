@@ -5,7 +5,13 @@ struct requestPermissionsView: View {
     @State private var showCalorieView = false
 
     var body: some View {
-        VStack {
+        if(showCalorieView)
+        {
+            DashboardView(healthStoreManager: healthStoreManager)
+
+        }
+        else
+        {
             Text("We need access to your HealthKit data to proceed.")
             Button("Grant Access") {
                 healthStoreManager.requestHealthKitPermission { success in
@@ -16,9 +22,6 @@ struct requestPermissionsView: View {
                     }
                 }
             }
-        }
-        .sheet(isPresented: $showCalorieView) {
-            DashboardView(healthStoreManager: healthStoreManager)
         }
     }
 }
