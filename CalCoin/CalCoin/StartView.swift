@@ -1,7 +1,7 @@
 import SwiftUI
 
 
-struct requestPermissionsView: View {
+struct StartView: View {
     @ObservedObject var healthStoreManager: HealthStoreManager
     @Binding var selectedViewType: ViewType
 
