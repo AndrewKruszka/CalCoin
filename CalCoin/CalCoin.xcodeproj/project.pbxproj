@@ -18,12 +18,12 @@
 		74DBC7162BC1AECA00C08DC5 /* POSTfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC7152BC1AECA00C08DC5 /* POSTfile.swift */; };
 		74DBC71E2BC1D34000C08DC5 /* CalCoinWatchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC71D2BC1D34000C08DC5 /* CalCoinWatchExtension.swift */; };
 		74DBC72C2BC1F2A900C08DC5 /* HealthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */; };
-		74DBC72E2BC1F31700C08DC5 /* requestPermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */; };
+		74DBC72E2BC1F31700C08DC5 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72D2BC1F31600C08DC5 /* StartView.swift */; };
 		74DBC7302BC1F3D200C08DC5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */; };
 		BDAB06512BC21594008291E3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */; };
 		BDAB06532BC21611008291E3 /* CaloriesBurnedWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06522BC21611008291E3 /* CaloriesBurnedWatchView.swift */; };
 		BDAB06542BC2168A008291E3 /* HealthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */; };
-		BDAB06552BC2168D008291E3 /* requestPermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */; };
+		BDAB06552BC2168D008291E3 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72D2BC1F31600C08DC5 /* StartView.swift */; };
 		BDAB06582BC216C6008291E3 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06572BC216C6008291E3 /* Coin.swift */; };
 		BDAB065A2BC216D6008291E3 /* CoinsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06592BC216D6008291E3 /* CoinsResponse.swift */; };
 		BDAB065B2BC216E8008291E3 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06572BC216C6008291E3 /* Coin.swift */; };
@@ -31,6 +31,9 @@
 		BDAB065D2BC21733008291E3 /* POSTfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC7152BC1AECA00C08DC5 /* POSTfile.swift */; };
 		BDAB06602BC21B66008291E3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAB065F2BC21B66008291E3 /* Info.plist */; };
 		BDAB06622BC21C0A008291E3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06612BC21C0A008291E3 /* CircularProgressView.swift */; };
+		BDDF9DF72BC23AE6005D6127 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDF9DF62BC23AE6005D6127 /* Launch Screen.storyboard */; };
+		BDDF9DF92BC24554005D6127 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF9DF82BC24554005D6127 /* InfoView.swift */; };
+		BDDF9DFB2BC24572005D6127 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF9DFA2BC24572005D6127 /* MainApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,13 +71,16 @@
 		74DBC7252BC1D73900C08DC5 /* CalCoin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalCoin.entitlements; sourceTree = "<group>"; };
 		74DBC7262BC1D74400C08DC5 /* CalCoinWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalCoinWatch.entitlements; sourceTree = "<group>"; };
 		74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreManager.swift; sourceTree = "<group>"; };
-		74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestPermissionsView.swift; sourceTree = "<group>"; };
+		74DBC72D2BC1F31600C08DC5 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		BDAB06522BC21611008291E3 /* CaloriesBurnedWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesBurnedWatchView.swift; sourceTree = "<group>"; };
 		BDAB06572BC216C6008291E3 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		BDAB06592BC216D6008291E3 /* CoinsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsResponse.swift; sourceTree = "<group>"; };
 		BDAB065F2BC21B66008291E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDAB06612BC21C0A008291E3 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		BDDF9DF62BC23AE6005D6127 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BDDF9DF82BC24554005D6127 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		BDDF9DFA2BC24572005D6127 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,9 +149,12 @@
 				74DBC6E82BC1A29F00C08DC5 /* Preview Content */,
 				74DBC7152BC1AECA00C08DC5 /* POSTfile.swift */,
 				74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */,
-				74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */,
+				74DBC72D2BC1F31600C08DC5 /* StartView.swift */,
 				74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */,
 				BDAB06612BC21C0A008291E3 /* CircularProgressView.swift */,
+				BDDF9DF62BC23AE6005D6127 /* Launch Screen.storyboard */,
+				BDDF9DF82BC24554005D6127 /* InfoView.swift */,
+				BDDF9DFA2BC24572005D6127 /* MainApp.swift */,
 			);
 			path = CalCoin;
 			sourceTree = "<group>";
@@ -322,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDF9DF72BC23AE6005D6127 /* Launch Screen.storyboard in Resources */,
 				74DBC6EA2BC1A29F00C08DC5 /* Preview Assets.xcassets in Resources */,
 				74DBC6E72BC1A29F00C08DC5 /* Assets.xcassets in Resources */,
 			);
@@ -357,14 +367,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				74DBC72C2BC1F2A900C08DC5 /* HealthStoreManager.swift in Sources */,
+				BDDF9DF92BC24554005D6127 /* InfoView.swift in Sources */,
 				BDAB065A2BC216D6008291E3 /* CoinsResponse.swift in Sources */,
-				74DBC72E2BC1F31700C08DC5 /* requestPermissionsView.swift in Sources */,
+				74DBC72E2BC1F31700C08DC5 /* StartView.swift in Sources */,
 				74DBC6E52BC1A29D00C08DC5 /* ContentView.swift in Sources */,
 				74DBC7302BC1F3D200C08DC5 /* DashboardView.swift in Sources */,
 				74DBC7162BC1AECA00C08DC5 /* POSTfile.swift in Sources */,
 				74DBC6E32BC1A29D00C08DC5 /* CalCoinApp.swift in Sources */,
 				BDAB06582BC216C6008291E3 /* Coin.swift in Sources */,
 				BDAB06622BC21C0A008291E3 /* CircularProgressView.swift in Sources */,
+				BDDF9DFB2BC24572005D6127 /* MainApp.swift in Sources */,
 				74DBC7122BC1A96300C08DC5 /* GraphQL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,7 +408,7 @@
 				BDAB06542BC2168A008291E3 /* HealthStoreManager.swift in Sources */,
 				BDAB06512BC21594008291E3 /* DashboardView.swift in Sources */,
 				BDAB06532BC21611008291E3 /* CaloriesBurnedWatchView.swift in Sources */,
-				BDAB06552BC2168D008291E3 /* requestPermissionsView.swift in Sources */,
+				BDAB06552BC2168D008291E3 /* StartView.swift in Sources */,
 				BDAB065D2BC21733008291E3 /* POSTfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,8 +566,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,8 +600,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,14 +1,21 @@
 import SwiftUI
 
+
 struct requestPermissionsView: View {
     @ObservedObject var healthStoreManager: HealthStoreManager
-    @State private var showCalorieView = false
+    @State private var selectedView = SelectedView.Start
 
     var body: some View {
+        
+        VStack()
+        {
+            
+        }
+        
+      
         if(showCalorieView)
         {
             DashboardView(healthStoreManager: healthStoreManager)
-
         }
         else
         {
