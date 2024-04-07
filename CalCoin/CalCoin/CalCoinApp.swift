@@ -12,6 +12,11 @@ enum ViewType {
     case Start
     case Info
     case MainApp
+    case MarketPlace
+    case Goals
+    case Favorites
+    case Community
+    case Dashboard
 }
 
 @main

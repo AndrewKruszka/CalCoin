@@ -9,13 +9,7 @@ import SwiftUI
 
 struct InfoView: View {
     @Binding var selectedViewType: ViewType
-    @Binding var infoStage: Int
-    
-    init() {
-        infoStage = 1
-    }
-
-    @State var name: String
+    @State var infoStage: Int = 1
     
     var body: some View {
         containedView();
@@ -55,7 +49,7 @@ struct InfoView1: View {
             Text("What is your top priority right now?")
 
             Button() {
-             
+                infoStage = 2
             }
             label: {
                 Rectangle()
@@ -63,7 +57,7 @@ struct InfoView1: View {
             }
             
             Button() {
-             
+                infoStage = 2
             }
             label: {
                 Rectangle()
@@ -71,7 +65,7 @@ struct InfoView1: View {
             }
             
             Button() {
-             
+                infoStage = 2
             }
             label: {
                 Rectangle()
@@ -79,7 +73,7 @@ struct InfoView1: View {
             }
             
             Button() {
-             
+                infoStage = 2
             }
             label: {
                 Rectangle()
@@ -171,7 +165,7 @@ struct InfoView3: View {
             }
             
             Button() {
-             
+                infoStage = 3
             }
             label: {
                 Rectangle()
@@ -187,8 +181,8 @@ struct InfoView4: View {
     
     @State var age: String = ""
     @State var height: String = ""
-    @State var currentWeight: Int = 0.0
-    @State var goalWeight: Int = 0.0
+    @State var currentWeight: Double = 0.0
+    @State var goalWeight: Double = 0.0
     @State private var date = Date()
 
     var body: some View {
@@ -249,7 +243,7 @@ struct InfoView4: View {
             )
             
             Button() {
-             
+                infoStage = 4
             }
             label: {
                 Rectangle()
@@ -309,7 +303,7 @@ struct InfoView5: View {
             }
             
             Button() {
-             
+                infoStage = 5
             }
             label: {
                 Rectangle()

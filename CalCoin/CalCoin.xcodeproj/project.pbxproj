@@ -34,6 +34,8 @@
 		BDDF9DF72BC23AE6005D6127 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDF9DF62BC23AE6005D6127 /* Launch Screen.storyboard */; };
 		BDDF9DF92BC24554005D6127 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF9DF82BC24554005D6127 /* InfoView.swift */; };
 		BDDF9DFB2BC24572005D6127 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF9DFA2BC24572005D6127 /* MainApp.swift */; };
+		BDDF9DFD2BC2E3D4005D6127 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF9DFC2BC2E3D4005D6127 /* NavBar.swift */; };
+		BDDF9DFF2BC2E3DF005D6127 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF9DFE2BC2E3DF005D6127 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		BDDF9DF62BC23AE6005D6127 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BDDF9DF82BC24554005D6127 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		BDDF9DFA2BC24572005D6127 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		BDDF9DFC2BC2E3D4005D6127 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		BDDF9DFE2BC2E3DF005D6127 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				BDDF9DF62BC23AE6005D6127 /* Launch Screen.storyboard */,
 				BDDF9DF82BC24554005D6127 /* InfoView.swift */,
 				BDDF9DFA2BC24572005D6127 /* MainApp.swift */,
+				BDDF9DFC2BC2E3D4005D6127 /* NavBar.swift */,
+				BDDF9DFE2BC2E3DF005D6127 /* Header.swift */,
 			);
 			path = CalCoin;
 			sourceTree = "<group>";
@@ -374,7 +380,9 @@
 				74DBC7302BC1F3D200C08DC5 /* DashboardView.swift in Sources */,
 				74DBC7162BC1AECA00C08DC5 /* POSTfile.swift in Sources */,
 				74DBC6E32BC1A29D00C08DC5 /* CalCoinApp.swift in Sources */,
+				BDDF9DFD2BC2E3D4005D6127 /* NavBar.swift in Sources */,
 				BDAB06582BC216C6008291E3 /* Coin.swift in Sources */,
+				BDDF9DFF2BC2E3DF005D6127 /* Header.swift in Sources */,
 				BDAB06622BC21C0A008291E3 /* CircularProgressView.swift in Sources */,
 				BDDF9DFB2BC24572005D6127 /* MainApp.swift in Sources */,
 				74DBC7122BC1A96300C08DC5 /* GraphQL.swift in Sources */,
