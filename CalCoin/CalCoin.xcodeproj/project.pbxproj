@@ -20,6 +20,17 @@
 		74DBC72C2BC1F2A900C08DC5 /* HealthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */; };
 		74DBC72E2BC1F31700C08DC5 /* requestPermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */; };
 		74DBC7302BC1F3D200C08DC5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */; };
+		BDAB06512BC21594008291E3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */; };
+		BDAB06532BC21611008291E3 /* CaloriesBurnedWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06522BC21611008291E3 /* CaloriesBurnedWatchView.swift */; };
+		BDAB06542BC2168A008291E3 /* HealthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */; };
+		BDAB06552BC2168D008291E3 /* requestPermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */; };
+		BDAB06582BC216C6008291E3 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06572BC216C6008291E3 /* Coin.swift */; };
+		BDAB065A2BC216D6008291E3 /* CoinsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06592BC216D6008291E3 /* CoinsResponse.swift */; };
+		BDAB065B2BC216E8008291E3 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06572BC216C6008291E3 /* Coin.swift */; };
+		BDAB065C2BC216EB008291E3 /* CoinsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06592BC216D6008291E3 /* CoinsResponse.swift */; };
+		BDAB065D2BC21733008291E3 /* POSTfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBC7152BC1AECA00C08DC5 /* POSTfile.swift */; };
+		BDAB06602BC21B66008291E3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAB065F2BC21B66008291E3 /* Info.plist */; };
+		BDAB06622BC21C0A008291E3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB06612BC21C0A008291E3 /* CircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +70,11 @@
 		74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreManager.swift; sourceTree = "<group>"; };
 		74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestPermissionsView.swift; sourceTree = "<group>"; };
 		74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		BDAB06522BC21611008291E3 /* CaloriesBurnedWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesBurnedWatchView.swift; sourceTree = "<group>"; };
+		BDAB06572BC216C6008291E3 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		BDAB06592BC216D6008291E3 /* CoinsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsResponse.swift; sourceTree = "<group>"; };
+		BDAB065F2BC21B66008291E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAB06612BC21C0A008291E3 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +134,7 @@
 		74DBC6E12BC1A29D00C08DC5 /* CalCoin */ = {
 			isa = PBXGroup;
 			children = (
+				BDAB06562BC216BC008291E3 /* Models */,
 				74DBC7252BC1D73900C08DC5 /* CalCoin.entitlements */,
 				74DBC7112BC1A96300C08DC5 /* GraphQL.swift */,
 				74DBC6E22BC1A29D00C08DC5 /* CalCoinApp.swift */,
@@ -128,6 +145,7 @@
 				74DBC72B2BC1F2A900C08DC5 /* HealthStoreManager.swift */,
 				74DBC72D2BC1F31600C08DC5 /* requestPermissionsView.swift */,
 				74DBC72F2BC1F3D200C08DC5 /* DashboardView.swift */,
+				BDAB06612BC21C0A008291E3 /* CircularProgressView.swift */,
 			);
 			path = CalCoin;
 			sourceTree = "<group>";
@@ -162,8 +180,19 @@
 			children = (
 				74DBC7262BC1D74400C08DC5 /* CalCoinWatch.entitlements */,
 				74DBC71D2BC1D34000C08DC5 /* CalCoinWatchExtension.swift */,
+				BDAB06522BC21611008291E3 /* CaloriesBurnedWatchView.swift */,
+				BDAB065F2BC21B66008291E3 /* Info.plist */,
 			);
 			path = CalCoinWatch;
+			sourceTree = "<group>";
+		};
+		BDAB06562BC216BC008291E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB06572BC216C6008291E3 /* Coin.swift */,
+				BDAB06592BC216D6008291E3 /* CoinsResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAB06602BC21B66008291E3 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,11 +357,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				74DBC72C2BC1F2A900C08DC5 /* HealthStoreManager.swift in Sources */,
+				BDAB065A2BC216D6008291E3 /* CoinsResponse.swift in Sources */,
 				74DBC72E2BC1F31700C08DC5 /* requestPermissionsView.swift in Sources */,
 				74DBC6E52BC1A29D00C08DC5 /* ContentView.swift in Sources */,
 				74DBC7302BC1F3D200C08DC5 /* DashboardView.swift in Sources */,
 				74DBC7162BC1AECA00C08DC5 /* POSTfile.swift in Sources */,
 				74DBC6E32BC1A29D00C08DC5 /* CalCoinApp.swift in Sources */,
+				BDAB06582BC216C6008291E3 /* Coin.swift in Sources */,
+				BDAB06622BC21C0A008291E3 /* CircularProgressView.swift in Sources */,
 				74DBC7122BC1A96300C08DC5 /* GraphQL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +390,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAB065B2BC216E8008291E3 /* Coin.swift in Sources */,
 				74DBC71E2BC1D34000C08DC5 /* CalCoinWatchExtension.swift in Sources */,
+				BDAB065C2BC216EB008291E3 /* CoinsResponse.swift in Sources */,
+				BDAB06542BC2168A008291E3 /* HealthStoreManager.swift in Sources */,
+				BDAB06512BC21594008291E3 /* DashboardView.swift in Sources */,
+				BDAB06532BC21611008291E3 /* CaloriesBurnedWatchView.swift in Sources */,
+				BDAB06552BC2168D008291E3 /* requestPermissionsView.swift in Sources */,
+				BDAB065D2BC21733008291E3 /* POSTfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,7 +705,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
@@ -694,7 +734,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
