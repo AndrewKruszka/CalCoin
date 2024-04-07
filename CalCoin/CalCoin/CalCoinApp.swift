@@ -30,11 +30,11 @@ struct CalCoinApp: App {
         case .Start:
             return AnyView(DashboardView(healthStoreManager: healthStoreManager));
         case .Info:
-            return AnyView(InfoView());
+            return AnyView(InfoView(selectedViewType: $selectedViewType));
         case .MainApp:
             return AnyView(MainApp());
         default:
-            return AnyView(InfoView());
+            return AnyView(InfoView(selectedViewType: $selectedViewType));
         }
     }
 }

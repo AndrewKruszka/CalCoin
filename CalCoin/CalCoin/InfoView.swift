@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct InfoView: View {
-    @Binding private var selectedViewType: ViewType
+    @Binding var selectedViewType: ViewType
     
     var body: some View {
         VStack()
@@ -21,8 +21,6 @@ struct InfoView: View {
             label: {
                 Text("Let's Get Started")
             }
-            
-            
         }
     }
 }
