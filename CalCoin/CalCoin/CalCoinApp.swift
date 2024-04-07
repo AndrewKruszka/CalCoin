@@ -27,15 +27,15 @@ struct CalCoinApp: App {
     
     func containedView() -> AnyView {
         switch(selectedViewType) {
-        case .Start:
-            return AnyView(StartView(healthStoreManager: healthStoreManager,
-                                     selectedViewType: $selectedViewType));
-        case .Info:
-            return AnyView(InfoView(selectedViewType: $selectedViewType));
-        case .MainApp:
-            return AnyView(MainApp());
-        default:
-            return AnyView(InfoView(selectedViewType: $selectedViewType));
+            case .Start:
+                return AnyView(StartView(healthStoreManager: healthStoreManager,
+                                         selectedViewType: $selectedViewType));
+            case .Info:
+                return AnyView(InfoView(selectedViewType: $selectedViewType));
+            case .MainApp:
+                return AnyView(MainApp());
+            default:
+                return AnyView(InfoView(selectedViewType: $selectedViewType));
         }
     }
 }

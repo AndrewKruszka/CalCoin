@@ -20,9 +20,12 @@ struct StartView: View {
                 }
             }
             label: {
+                Rectangle()
                 Text("Let's Get Started")
             }
         }
         
     }
 }
+
+
